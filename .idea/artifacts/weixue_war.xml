@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="weixue:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>weixue</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="weixue.war">
+      <element id="artifact" artifact-name="weixue:war exploded" />
+    </root>
+  </artifact>
+</component>
